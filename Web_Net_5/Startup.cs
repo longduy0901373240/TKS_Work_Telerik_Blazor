@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Utility_5;
 using Web_Net_5.Data;
 
 namespace Web_Net_5
@@ -19,7 +20,15 @@ namespace Web_Net_5
         {
             Configuration = configuration;
         }
+        private void Init_Config()
+        {
+            #region ConnectionString Data Base
+            CConfig.g_strTKS_Thuc_Tap_Data_Conn_String = Configuration.GetConnectionString("TKS_Thuc_Tap_Data_Conn_String");
+            #endregion
 
+            CConfig.DateTime_Format_String = Configuration.GetValue<string>("DateTime_Format_String");
+            CConfig.Number_Format_String = Configuration.GetValue<string>("Number_Format_String");
+        }
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -29,6 +38,7 @@ namespace Web_Net_5
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            Init_Config();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
