@@ -1,0 +1,12 @@
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\bin\Debug\net5.0\Controller_5.deps.json
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\bin\Debug\net5.0\Controller_5.dll
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\bin\Debug\net5.0\ref\Controller_5.dll
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\bin\Debug\net5.0\Controller_5.pdb
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\obj\Debug\net5.0\Controller_5.csproj.AssemblyReference.cache
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\obj\Debug\net5.0\Controller_5.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\obj\Debug\net5.0\Controller_5.AssemblyInfoInputs.cache
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\obj\Debug\net5.0\Controller_5.AssemblyInfo.cs
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\obj\Debug\net5.0\Controller_5.csproj.CoreCompileInputs.cache
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\obj\Debug\net5.0\Controller_5.dll
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\obj\Debug\net5.0\ref\Controller_5.dll
+D:\Code\TKS_Work_Telerik_Blazor\Controller_5\obj\Debug\net5.0\Controller_5.pdb

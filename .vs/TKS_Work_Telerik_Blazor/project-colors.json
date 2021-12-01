@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d71e8ee5-cd1e-4fea-a860-e6f2078a9bac": {
+      "ProjectGuid": "d71e8ee5-cd1e-4fea-a860-e6f2078a9bac",
+      "DisplayName": "Web_Net_5",
+      "ColorIndex": 0
+    },
+    "53fa37c1-9029-4103-879c-0eb7896f2cb8": {
+      "ProjectGuid": "53fa37c1-9029-4103-879c-0eb7896f2cb8",
+      "DisplayName": "Web_Net_6",
+      "ColorIndex": 1
+    },
+    "0beaf3f9-f8e5-42d1-93d1-9d5d001ee32d": {
+      "ProjectGuid": "0beaf3f9-f8e5-42d1-93d1-9d5d001ee32d",
+      "DisplayName": "Controller_6",
+      "ColorIndex": 2
+    },
+    "ca02e627-c039-4c1f-a8a1-b94760e6d037": {
+      "ProjectGuid": "ca02e627-c039-4c1f-a8a1-b94760e6d037",
+      "DisplayName": "Controller_6",
+      "ColorIndex": 3
+    },
+    "fc204e3a-2c4b-4065-8287-1555699275af": {
+      "ProjectGuid": "fc204e3a-2c4b-4065-8287-1555699275af",
+      "DisplayName": "Controller_5",
+      "ColorIndex": 4
+    },
+    "7c9e9c9d-0e05-45f9-9aea-95fb3d6ad9c7": {
+      "ProjectGuid": "7c9e9c9d-0e05-45f9-9aea-95fb3d6ad9c7",
+      "DisplayName": "DataLayer_6",
+      "ColorIndex": 5
+    },
+    "07ece80f-9a78-4703-ac90-7a5473b20fe4": {
+      "ProjectGuid": "07ece80f-9a78-4703-ac90-7a5473b20fe4",
+      "DisplayName": "DataLayer_5",
+      "ColorIndex": 6
+    },
+    "d0c56915-51b5-411a-adba-331b50a26ead": {
+      "ProjectGuid": "d0c56915-51b5-411a-adba-331b50a26ead",
+      "DisplayName": "Entity_5",
+      "ColorIndex": 7
+    },
+    "3d10c187-dca6-47a3-866d-0aca7567130e": {
+      "ProjectGuid": "3d10c187-dca6-47a3-866d-0aca7567130e",
+      "DisplayName": "Entity_6",
+      "ColorIndex": 8
+    },
+    "ee76d231-2189-4c2f-9468-0c3576d6bbde": {
+      "ProjectGuid": "ee76d231-2189-4c2f-9468-0c3576d6bbde",
+      "DisplayName": "Utility_5",
+      "ColorIndex": 9
+    },
+    "59d1ea6e-0560-486e-9a15-38af1ba1cf8c": {
+      "ProjectGuid": "59d1ea6e-0560-486e-9a15-38af1ba1cf8c",
+      "DisplayName": "Utility_6",
+      "ColorIndex": 10
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 11
+}

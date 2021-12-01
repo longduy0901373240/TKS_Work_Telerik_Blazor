@@ -1,0 +1,15 @@
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\bin\Debug\net5.0\DataLayer_5.deps.json
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\bin\Debug\net5.0\DataLayer_5.dll
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\bin\Debug\net5.0\ref\DataLayer_5.dll
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\bin\Debug\net5.0\DataLayer_5.pdb
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\obj\Debug\net5.0\DataLayer_5.csproj.AssemblyReference.cache
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\obj\Debug\net5.0\DataLayer_5.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\obj\Debug\net5.0\DataLayer_5.AssemblyInfoInputs.cache
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\obj\Debug\net5.0\DataLayer_5.AssemblyInfo.cs
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\obj\Debug\net5.0\DataLayer_5.csproj.CoreCompileInputs.cache
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\obj\Debug\net5.0\DataLayer_5.dll
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\obj\Debug\net5.0\ref\DataLayer_5.dll
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\obj\Debug\net5.0\DataLayer_5.pdb
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\bin\Debug\net5.0\Utility_5.dll
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\bin\Debug\net5.0\Utility_5.pdb
+D:\Code\TKS_Work_Telerik_Blazor\DataLayer_5\obj\Debug\net5.0\DataLayer_5.csproj.CopyComplete
