@@ -6,4 +6,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Controller_6\Controller_6.csproj" />
+    <ProjectReference Include="..\DataLayer_6\DataLayer_6.csproj" />
+    <ProjectReference Include="..\Entity_6\Entity_6.csproj" />
+    <ProjectReference Include="..\Utility_6\Utility_6.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\FileManagement\CSS\" />
+    <Folder Include="wwwroot\FileManagement\Uploads\" />
+    <Folder Include="wwwroot\FileManagement\Templates\" />
+  </ItemGroup>
+
 </Project>

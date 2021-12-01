@@ -4,4 +4,17 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Controller_5\Controller_5.csproj" />
+    <ProjectReference Include="..\DataLayer_5\DataLayer_5.csproj" />
+    <ProjectReference Include="..\Entity_5\Entity_5.csproj" />
+    <ProjectReference Include="..\Utility_5\Utility_5.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\FileManagement\CSS\" />
+    <Folder Include="wwwroot\FileManagement\Uploads\" />
+    <Folder Include="wwwroot\FileManagement\Templates\" />
+  </ItemGroup>
+
 </Project>
