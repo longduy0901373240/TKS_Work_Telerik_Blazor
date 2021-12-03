@@ -10,3 +10,10 @@ D:\Code\TKS_Work_Telerik_Blazor\Controller_6\obj\Debug\net6.0\Controller_6.cspro
 D:\Code\TKS_Work_Telerik_Blazor\Controller_6\obj\Debug\net6.0\Controller_6.dll
 D:\Code\TKS_Work_Telerik_Blazor\Controller_6\obj\Debug\net6.0\ref\Controller_6.dll
 D:\Code\TKS_Work_Telerik_Blazor\Controller_6\obj\Debug\net6.0\Controller_6.pdb
+D:\Code\TKS_Work_Telerik_Blazor\Controller_6\bin\Debug\net6.0\DataLayer_6.dll
+D:\Code\TKS_Work_Telerik_Blazor\Controller_6\bin\Debug\net6.0\Entity_6.dll
+D:\Code\TKS_Work_Telerik_Blazor\Controller_6\bin\Debug\net6.0\Utility_6.dll
+D:\Code\TKS_Work_Telerik_Blazor\Controller_6\bin\Debug\net6.0\DataLayer_6.pdb
+D:\Code\TKS_Work_Telerik_Blazor\Controller_6\bin\Debug\net6.0\Entity_6.pdb
+D:\Code\TKS_Work_Telerik_Blazor\Controller_6\bin\Debug\net6.0\Utility_6.pdb
+D:\Code\TKS_Work_Telerik_Blazor\Controller_6\obj\Debug\net6.0\Controller_6.csproj.CopyComplete

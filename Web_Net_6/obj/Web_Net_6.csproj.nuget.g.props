@@ -12,4 +12,7 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\longd\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)telerik.ui.for.blazor.trial\2.29.0\buildTransitive\Telerik.UI.for.Blazor.Trial.props" Condition="Exists('$(NuGetPackageRoot)telerik.ui.for.blazor.trial\2.29.0\buildTransitive\Telerik.UI.for.Blazor.Trial.props')" />
+  </ImportGroup>
 </Project>

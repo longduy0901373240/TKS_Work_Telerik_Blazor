@@ -48,3 +48,8 @@ D:\Code\TKS_Work_Telerik_Blazor\Web_Net_6\bin\Debug\net6.0\DataLayer_6.pdb
 D:\Code\TKS_Work_Telerik_Blazor\Web_Net_6\bin\Debug\net6.0\Entity_6.pdb
 D:\Code\TKS_Work_Telerik_Blazor\Web_Net_6\bin\Debug\net6.0\Utility_6.pdb
 D:\Code\TKS_Work_Telerik_Blazor\Web_Net_6\obj\Debug\net6.0\Web_Net_6.csproj.CopyComplete
+D:\Code\TKS_Work_Telerik_Blazor\Web_Net_6\bin\Debug\net6.0\Telerik.DataSource.dll
+D:\Code\TKS_Work_Telerik_Blazor\Web_Net_6\bin\Debug\net6.0\Telerik.Documents.SpreadsheetStreaming.dll
+D:\Code\TKS_Work_Telerik_Blazor\Web_Net_6\bin\Debug\net6.0\Telerik.Recurrence.dll
+D:\Code\TKS_Work_Telerik_Blazor\Web_Net_6\bin\Debug\net6.0\Telerik.Blazor.dll
+D:\Code\TKS_Work_Telerik_Blazor\Web_Net_6\bin\Debug\net6.0\Telerik.Zip.dll

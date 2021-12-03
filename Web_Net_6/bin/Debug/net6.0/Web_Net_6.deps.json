@@ -11,6 +11,7 @@
           "Controller_6": "1.0.0",
           "DataLayer_6": "1.0.0",
           "Entity_6": "1.0.0",
+          "Telerik.UI.for.Blazor.Trial": "2.29.0",
           "Utility_6": "1.0.0"
         },
         "runtime": {
@@ -69,6 +70,7 @@
         }
       },
       "Microsoft.AspNetCore.Metadata/6.0.0": {},
+      "Microsoft.CSharp/4.6.0": {},
       "Microsoft.Extensions.Configuration/5.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
@@ -455,11 +457,77 @@
           "System.Runtime.Extensions": "4.3.0"
         }
       },
+      "System.Linq.Expressions/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0"
+        }
+      },
+      "System.Linq.Queryable/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.ObjectModel/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0"
+        }
+      },
       "System.Reflection/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
         }
@@ -523,6 +591,13 @@
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Handles": "4.3.0"
+        }
+      },
+      "System.Runtime.Loader/4.3.0": {
+        "dependencies": {
+          "System.IO": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
         }
       },
       "System.Runtime.Numerics/4.3.0": {
@@ -695,6 +770,7 @@
           "System.Text.Encoding": "4.3.0"
         }
       },
+      "System.Text.Json/4.7.1": {},
       "System.Text.RegularExpressions/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -786,7 +862,70 @@
           }
         }
       },
+      "Telerik.DataSource.Trial/2.1.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.6.0",
+          "System.Data.Common": "4.3.0",
+          "System.Linq.Queryable": "4.3.0",
+          "System.Runtime.Loader": "4.3.0",
+          "System.Text.Json": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Telerik.DataSource.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Telerik.Documents.SpreadsheetStreaming.Trial/2021.3.1109": {
+        "dependencies": {
+          "Telerik.Zip.Trial": "2021.3.1109"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.SpreadsheetStreaming.dll": {
+            "assemblyVersion": "2021.3.1109.20",
+            "fileVersion": "2021.3.1109.20"
+          }
+        }
+      },
+      "Telerik.Recurrence.Trial/0.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Recurrence.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "Telerik.UI.for.Blazor.Trial/2.29.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.0",
+          "System.Data.Common": "4.3.0",
+          "System.Linq.Queryable": "4.3.0",
+          "Telerik.DataSource.Trial": "2.1.0",
+          "Telerik.Documents.SpreadsheetStreaming.Trial": "2021.3.1109",
+          "Telerik.Recurrence.Trial": "0.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Telerik.Blazor.dll": {
+            "assemblyVersion": "2.29.0.0",
+            "fileVersion": "2.29.0.0"
+          }
+        }
+      },
+      "Telerik.Zip.Trial/2021.3.1109": {
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Zip.dll": {
+            "assemblyVersion": "2021.3.1109.20",
+            "fileVersion": "2021.3.1109.20"
+          }
+        }
+      },
       "Controller_6/1.0.0": {
+        "dependencies": {
+          "DataLayer_6": "1.0.0",
+          "Entity_6": "1.0.0",
+          "Utility_6": "1.0.0"
+        },
         "runtime": {
           "Controller_6.dll": {}
         }
@@ -801,6 +940,9 @@
         }
       },
       "Entity_6/1.0.0": {
+        "dependencies": {
+          "Utility_6": "1.0.0"
+        },
         "runtime": {
           "Entity_6.dll": {}
         }
@@ -870,6 +1012,13 @@
       "sha512": "sha512-giBCvjANLIOqC+DJ84zCkCQnE4ebRTrgVyBe5e0gG3/F8GYzdqSSdtMSAvbOkBQsf0F8dySBPSM59vX6ksOeQg==",
       "path": "microsoft.aspnetcore.metadata/6.0.0",
       "hashPath": "microsoft.aspnetcore.metadata.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kxn3M2rnAGy5N5DgcIwcE8QTePWU/XiYcQVzn9HqTls2NKluVzVSmVWRjK7OUPWbljCXuZxHyhEz9kPRIQeXow==",
+      "path": "microsoft.csharp/4.6.0",
+      "hashPath": "microsoft.csharp.4.6.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/5.0.0": {
       "type": "package",
@@ -1284,12 +1433,54 @@
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
     },
+    "System.Linq.Expressions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PGKkrd2khG4CnlyJwxwwaWWiSiWFNBGlgXvJpeO0xCXrZ89ODrQ6tjEWS/kOqZ8GwEOUATtKtzp1eRgmYNfclg==",
+      "path": "system.linq.expressions/4.3.0",
+      "hashPath": "system.linq.expressions.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Queryable/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-In1Bmmvl/j52yPu3xgakQSI0YIckPUr870w4K5+Lak3JCCa8hl+my65lABOuKfYs4ugmZy25ScFerC4nz8+b6g==",
+      "path": "system.linq.queryable/4.3.0",
+      "hashPath": "system.linq.queryable.4.3.0.nupkg.sha512"
+    },
+    "System.ObjectModel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
+      "path": "system.objectmodel/4.3.0",
+      "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
+    },
     "System.Reflection/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "path": "system.reflection/4.3.0",
       "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "path": "system.reflection.emit/4.3.0",
+      "hashPath": "system.reflection.emit.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+      "path": "system.reflection.emit.ilgeneration/4.3.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
+      "path": "system.reflection.emit.lightweight/4.3.0",
+      "hashPath": "system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
     },
     "System.Reflection.Extensions/4.3.0": {
       "type": "package",
@@ -1353,6 +1544,13 @@
       "sha512": "sha512-uv1ynXqiMK8mp1GM3jDqPCFN66eJ5w5XNomaK2XD+TuCroNTLFGeZ+WCmBMcBDyTFKou3P6cR6J/QsaqDp7fGQ==",
       "path": "system.runtime.interopservices/4.3.0",
       "hashPath": "system.runtime.interopservices.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Loader/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DHMaRn8D8YCK2GG2pw+UzNxn/OHVfaWx7OTLBD/hPegHZZgcZh3H6seWegrC4BYwsfuGrywIuT+MQs+rPqRLTQ==",
+      "path": "system.runtime.loader/4.3.0",
+      "hashPath": "system.runtime.loader.4.3.0.nupkg.sha512"
     },
     "System.Runtime.Numerics/4.3.0": {
       "type": "package",
@@ -1466,6 +1664,13 @@
       "path": "system.text.encoding.extensions/4.3.0",
       "hashPath": "system.text.encoding.extensions.4.3.0.nupkg.sha512"
     },
+    "System.Text.Json/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XwzMbct3iNepJaFylN1+l8weWlFburEzXidqleSsLvSXdHSIJHEKtRVKHPlpWcFmJX6k3goPFfVgUfp40RR+bg==",
+      "path": "system.text.json/4.7.1",
+      "hashPath": "system.text.json.4.7.1.nupkg.sha512"
+    },
     "System.Text.RegularExpressions/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1521,6 +1726,41 @@
       "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "Telerik.DataSource.Trial/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C0IRr52N15wkhQQXTzWfBgyUMHv2DlCbEDp4PADgjMPQ7WQk1Ecn4vM0/NY95U7F+k8eQ6Eci3rPklgoDC6lQQ==",
+      "path": "telerik.datasource.trial/2.1.0",
+      "hashPath": "telerik.datasource.trial.2.1.0.nupkg.sha512"
+    },
+    "Telerik.Documents.SpreadsheetStreaming.Trial/2021.3.1109": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DeRCs6S4kK+Fis+SA8q6xa5tY/6STTOV0ZLBDE521rUIUUkBfCIKApXdtYf4BnlYHZxrZrIhdmLqrGVSe/8iLQ==",
+      "path": "telerik.documents.spreadsheetstreaming.trial/2021.3.1109",
+      "hashPath": "telerik.documents.spreadsheetstreaming.trial.2021.3.1109.nupkg.sha512"
+    },
+    "Telerik.Recurrence.Trial/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eqvhcfMxRIQrYRr8qbYTXXirbXaZvEq2U117Hk9cXXJJM/jZ+T24siZp2AszgKwKBDFuiQzfCr0TSNaXOyn9JA==",
+      "path": "telerik.recurrence.trial/0.2.0",
+      "hashPath": "telerik.recurrence.trial.0.2.0.nupkg.sha512"
+    },
+    "Telerik.UI.for.Blazor.Trial/2.29.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e2aonLkPmxCt2jAtiluccjwos9svlYun94z3M7c6OzUmS2PQLnLwrouIQwmMNkcuP6tC9a/sLm2IxJltzFsyJA==",
+      "path": "telerik.ui.for.blazor.trial/2.29.0",
+      "hashPath": "telerik.ui.for.blazor.trial.2.29.0.nupkg.sha512"
+    },
+    "Telerik.Zip.Trial/2021.3.1109": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yKIwjypBuGtJEkK/aI3sJn7afOk29uFMvoHEbBRljxt1Whl+Hz7U7VwrdJI69M+eAp7vc3ZX7cxuzaOcagf5VA==",
+      "path": "telerik.zip.trial/2021.3.1109",
+      "hashPath": "telerik.zip.trial.2021.3.1109.nupkg.sha512"
     },
     "Controller_6/1.0.0": {
       "type": "project",

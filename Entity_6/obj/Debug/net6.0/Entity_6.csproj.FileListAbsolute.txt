@@ -10,3 +10,6 @@ D:\Code\TKS_Work_Telerik_Blazor\Entity_6\obj\Debug\net6.0\Entity_6.csproj.CoreCo
 D:\Code\TKS_Work_Telerik_Blazor\Entity_6\obj\Debug\net6.0\Entity_6.dll
 D:\Code\TKS_Work_Telerik_Blazor\Entity_6\obj\Debug\net6.0\ref\Entity_6.dll
 D:\Code\TKS_Work_Telerik_Blazor\Entity_6\obj\Debug\net6.0\Entity_6.pdb
+D:\Code\TKS_Work_Telerik_Blazor\Entity_6\bin\Debug\net6.0\Utility_6.dll
+D:\Code\TKS_Work_Telerik_Blazor\Entity_6\bin\Debug\net6.0\Utility_6.pdb
+D:\Code\TKS_Work_Telerik_Blazor\Entity_6\obj\Debug\net6.0\Entity_6.csproj.CopyComplete

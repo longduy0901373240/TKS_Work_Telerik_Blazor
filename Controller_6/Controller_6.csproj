@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayer_6\DataLayer_6.csproj" />
+    <ProjectReference Include="..\Entity_6\Entity_6.csproj" />
+    <ProjectReference Include="..\Utility_6\Utility_6.csproj" />
+  </ItemGroup>
+
 </Project>
