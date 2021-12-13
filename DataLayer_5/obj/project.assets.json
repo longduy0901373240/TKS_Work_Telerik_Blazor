@@ -5278,7 +5278,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\longd\\.nuget\\packages\\": {}
+    "C:\\Users\\longd\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5289,6 +5290,9 @@
       "packagesPath": "C:\\Users\\longd\\.nuget\\packages\\",
       "outputPath": "D:\\Code\\TKS_Work_Telerik_Blazor\\DataLayer_5\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\longd\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

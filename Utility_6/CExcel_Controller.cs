@@ -40,7 +40,7 @@ namespace Utility_6
                 if (!Check_Excel_File_Type(v_strTextExl))
                     throw new Exception("Không phải định dạng excel nên không đọc được.");
                 // đường dẫn đến thư mục trong wwwroot
-                var relativePath = Path.Combine("FileManagement\\Upload");
+                var relativePath = Path.Combine("FileManagement\\Uploads");
                 var dirToSave = Path.Combine(v_strWebRootPath, relativePath);
                 var di = new DirectoryInfo(dirToSave);
                 // Create folder theo Path di nếu không có folder

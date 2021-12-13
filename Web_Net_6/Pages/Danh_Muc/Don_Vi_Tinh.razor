@@ -1,14 +1,39 @@
 ﻿@page "/don-vi-tinh"
 @using Entity_6.Danh_Muc
 
+@inject IWebHostEnvironment env
+@inject IJSRuntime IJS
+
 <h3>Don_Vi_Tinh</h3>
+<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col">
+                <div class="input-group mb-3">
+                    <InputFile class="form-control border border-dark border-1" accept=".xlsx,.xls" OnChange="@F_UploadFile" id="InputFile_Custom" />
+                </div>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-light border border-dark border-1" @onclick="@F_Import_Excel">Import Excel</button>
+            </div>
+            <div class="col">
+                <a class="btn btn-light border border-dark border-1" href="/FileManagement/Templates/Template_Don_Vi_Tinh.xlsx" download="Template_Don_Vi_Tinh.xlsx">
+                    Download Template
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
 <div class="row">
     <div class="col-md-12">
         <TelerikContextMenu @ref="@p_ContextMenu_Don_Vi_Tinh" Data=@p_MenuItems_Don_Vi_Tinh OnClick=@((MenuItem item)=>F_OnItemClick(item))></TelerikContextMenu>
         <TelerikGrid Data="@p_arrDon_vi_Tinh" EditMode="@GridEditMode.Popup"
-        OnRowContextMenu =@F_OnContextMenu_Don_Vi_Tinh>
+                     OnRowContextMenu=@F_OnContextMenu_Don_Vi_Tinh>
             <GridToolBar>
                 <GridCommandButton Icon="add" OnClick="@F_AddItem_Don_Vi_Tinh">Add Item</GridCommandButton>
+                <GridCommandButton Command="ExcelExport" Icon="file-excel">Export to Excel</GridCommandButton>
+                <GridCommandButton Command="CsvExport" Icon="file-csv">Export to CSV</GridCommandButton>
             </GridToolBar>
             <GridColumns>
                 <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Auto_ID) Title="Auto ID"></GridColumn>
@@ -22,7 +47,7 @@
         <TelerikWindow Modal="true" Visible="@(p_objDon_Vi_Tinh!=null)">
             <WindowTitle>
                 @{
-                    if(@p_blSelectEdit == true)
+                    if (@p_blSelectEdit == true)
                     {
                         <strong>Edit Record Đơn Vị Tính</strong>
                     }
@@ -36,6 +61,7 @@
                 <TelerikForm Model="@p_objDon_Vi_Tinh" OnValidSubmit=@F_Save_Don_Vi_Tinh>
                     <FormItems>
                         <FormItem Field=@nameof(CDM_Don_Vi_Tinh.Ten_Don_Vi_Tinh) LabelText="Đơn Vị Tính"></FormItem>
+                        <p class="text-danger">@p_strNotificationError</p>
                     </FormItems>
                     <FormButtons>
                         <TelerikButton Icon="save" ButtonType="@ButtonType.Submit" Primary=true>Save</TelerikButton>
@@ -46,3 +72,4 @@
         </TelerikWindow>
     </div>
 </div>
+
