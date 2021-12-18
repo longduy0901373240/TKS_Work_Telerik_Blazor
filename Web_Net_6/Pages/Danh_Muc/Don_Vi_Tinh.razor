@@ -28,7 +28,7 @@
 <div class="row">
     <div class="col-md-12">
         <TelerikContextMenu @ref="@p_ContextMenu_Don_Vi_Tinh" Data=@p_MenuItems_Don_Vi_Tinh OnClick=@((MenuItem item)=>F_OnItemClick(item))></TelerikContextMenu>
-        <TelerikGrid Data="@p_arrDon_vi_Tinh" EditMode="@GridEditMode.Popup"
+        <TelerikGrid Data="@p_arrDon_vi_Tinh" EditMode="@GridEditMode.Popup" FilterMode="@GridFilterMode.FilterRow" Sortable="true" SortMode="@SortMode.Single"
                      OnRowContextMenu=@F_OnContextMenu_Don_Vi_Tinh>
             <GridToolBar>
                 <GridCommandButton Icon="add" OnClick="@F_AddItem_Don_Vi_Tinh">Add Item</GridCommandButton>
