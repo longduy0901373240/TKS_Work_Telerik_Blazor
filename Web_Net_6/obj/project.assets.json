@@ -1612,7 +1612,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Telerik.DataSource.Trial/2.1.0": {
+      "Telerik.DataSource.Trial/2.1.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.6.0",
@@ -1649,13 +1649,13 @@
           "lib/netstandard2.0/Telerik.Recurrence.dll": {}
         }
       },
-      "Telerik.UI.for.Blazor.Trial/2.29.0": {
+      "Telerik.UI.for.Blazor.Trial/2.30.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "3.1.21",
           "System.Data.Common": "4.3.0",
           "System.Linq.Queryable": "4.3.0",
-          "Telerik.DataSource.Trial": "2.1.0",
+          "Telerik.DataSource.Trial": "2.1.1",
           "Telerik.Documents.SpreadsheetStreaming.Trial": "2021.3.1109",
           "Telerik.Recurrence.Trial": "0.2.0"
         },
@@ -6073,15 +6073,15 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "Telerik.DataSource.Trial/2.1.0": {
-      "sha512": "C0IRr52N15wkhQQXTzWfBgyUMHv2DlCbEDp4PADgjMPQ7WQk1Ecn4vM0/NY95U7F+k8eQ6Eci3rPklgoDC6lQQ==",
+    "Telerik.DataSource.Trial/2.1.1": {
+      "sha512": "7Cd/FcGlKh0lhxtQJwxmzS9rGE0Qzzd8X9MD254JE6FZYqWD83GFB9anzIFu7mcepaiqiTIEiLn/c9ckYP6V3A==",
       "type": "package",
-      "path": "telerik.datasource.trial/2.1.0",
+      "path": "telerik.datasource.trial/2.1.1",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.1/Telerik.DataSource.dll",
         "lib/netstandard2.1/Telerik.DataSource.xml",
-        "telerik.datasource.trial.2.1.0.nupkg.sha512",
+        "telerik.datasource.trial.2.1.1.nupkg.sha512",
         "telerik.datasource.trial.nuspec"
       ]
     },
@@ -6114,10 +6114,10 @@
         "telerik.recurrence.trial.nuspec"
       ]
     },
-    "Telerik.UI.for.Blazor.Trial/2.29.0": {
-      "sha512": "e2aonLkPmxCt2jAtiluccjwos9svlYun94z3M7c6OzUmS2PQLnLwrouIQwmMNkcuP6tC9a/sLm2IxJltzFsyJA==",
+    "Telerik.UI.for.Blazor.Trial/2.30.0": {
+      "sha512": "YsU65XX7i2XPMysHQdMZl9X44/qA/mieOaeEATPHNbggSk4q/9jyEajHY/k7B71W9GM5MODuco1L1pSIicNChA==",
       "type": "package",
-      "path": "telerik.ui.for.blazor.trial/2.29.0",
+      "path": "telerik.ui.for.blazor.trial/2.30.0",
       "files": [
         ".nupkg.metadata",
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
@@ -6131,7 +6131,7 @@
         "staticwebassets/css/kendo-theme-material/all.css",
         "staticwebassets/images/blazor.png",
         "staticwebassets/js/telerik-blazor.js",
-        "telerik.ui.for.blazor.trial.2.29.0.nupkg.sha512",
+        "telerik.ui.for.blazor.trial.2.30.0.nupkg.sha512",
         "telerik.ui.for.blazor.trial.nuspec"
       ]
     },
@@ -6179,7 +6179,7 @@
       "Controller_6 >= 1.0.0",
       "DataLayer_6 >= 1.0.0",
       "Entity_6 >= 1.0.0",
-      "Telerik.UI.for.Blazor.Trial >= 2.29.0",
+      "Telerik.UI.for.Blazor.Trial >= 2.30.0",
       "Utility_6 >= 1.0.0"
     ]
   },
@@ -6209,7 +6209,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.telerik.com/nuget": {}
+        "https://nuget.telerik.com/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -6242,7 +6242,7 @@
         "dependencies": {
           "Telerik.UI.for.Blazor.Trial": {
             "target": "Package",
-            "version": "[2.29.0, )"
+            "version": "[2.30.0, )"
           }
         },
         "imports": [
@@ -6263,7 +6263,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

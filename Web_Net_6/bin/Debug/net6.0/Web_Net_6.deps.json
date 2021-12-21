@@ -11,7 +11,7 @@
           "Controller_6": "1.0.0",
           "DataLayer_6": "1.0.0",
           "Entity_6": "1.0.0",
-          "Telerik.UI.for.Blazor.Trial": "2.29.0",
+          "Telerik.UI.for.Blazor.Trial": "2.30.0",
           "Utility_6": "1.0.0"
         },
         "runtime": {
@@ -862,7 +862,7 @@
           }
         }
       },
-      "Telerik.DataSource.Trial/2.1.0": {
+      "Telerik.DataSource.Trial/2.1.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.6.0",
           "System.Data.Common": "4.3.0",
@@ -872,8 +872,8 @@
         },
         "runtime": {
           "lib/netstandard2.1/Telerik.DataSource.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.0.0"
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
           }
         }
       },
@@ -896,19 +896,19 @@
           }
         }
       },
-      "Telerik.UI.for.Blazor.Trial/2.29.0": {
+      "Telerik.UI.for.Blazor.Trial/2.30.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.0",
           "System.Data.Common": "4.3.0",
           "System.Linq.Queryable": "4.3.0",
-          "Telerik.DataSource.Trial": "2.1.0",
+          "Telerik.DataSource.Trial": "2.1.1",
           "Telerik.Documents.SpreadsheetStreaming.Trial": "2021.3.1109",
           "Telerik.Recurrence.Trial": "0.2.0"
         },
         "runtime": {
           "lib/netstandard2.1/Telerik.Blazor.dll": {
-            "assemblyVersion": "2.29.0.0",
-            "fileVersion": "2.29.0.0"
+            "assemblyVersion": "2.30.0.0",
+            "fileVersion": "2.30.0.0"
           }
         }
       },
@@ -1727,12 +1727,12 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "Telerik.DataSource.Trial/2.1.0": {
+    "Telerik.DataSource.Trial/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-C0IRr52N15wkhQQXTzWfBgyUMHv2DlCbEDp4PADgjMPQ7WQk1Ecn4vM0/NY95U7F+k8eQ6Eci3rPklgoDC6lQQ==",
-      "path": "telerik.datasource.trial/2.1.0",
-      "hashPath": "telerik.datasource.trial.2.1.0.nupkg.sha512"
+      "sha512": "sha512-7Cd/FcGlKh0lhxtQJwxmzS9rGE0Qzzd8X9MD254JE6FZYqWD83GFB9anzIFu7mcepaiqiTIEiLn/c9ckYP6V3A==",
+      "path": "telerik.datasource.trial/2.1.1",
+      "hashPath": "telerik.datasource.trial.2.1.1.nupkg.sha512"
     },
     "Telerik.Documents.SpreadsheetStreaming.Trial/2021.3.1109": {
       "type": "package",
@@ -1748,12 +1748,12 @@
       "path": "telerik.recurrence.trial/0.2.0",
       "hashPath": "telerik.recurrence.trial.0.2.0.nupkg.sha512"
     },
-    "Telerik.UI.for.Blazor.Trial/2.29.0": {
+    "Telerik.UI.for.Blazor.Trial/2.30.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-e2aonLkPmxCt2jAtiluccjwos9svlYun94z3M7c6OzUmS2PQLnLwrouIQwmMNkcuP6tC9a/sLm2IxJltzFsyJA==",
-      "path": "telerik.ui.for.blazor.trial/2.29.0",
-      "hashPath": "telerik.ui.for.blazor.trial.2.29.0.nupkg.sha512"
+      "sha512": "sha512-YsU65XX7i2XPMysHQdMZl9X44/qA/mieOaeEATPHNbggSk4q/9jyEajHY/k7B71W9GM5MODuco1L1pSIicNChA==",
+      "path": "telerik.ui.for.blazor.trial/2.30.0",
+      "hashPath": "telerik.ui.for.blazor.trial.2.30.0.nupkg.sha512"
     },
     "Telerik.Zip.Trial/2021.3.1109": {
       "type": "package",

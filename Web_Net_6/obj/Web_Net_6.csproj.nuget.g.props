@@ -14,6 +14,6 @@
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)telerik.ui.for.blazor.trial\2.29.0\buildTransitive\Telerik.UI.for.Blazor.Trial.props" Condition="Exists('$(NuGetPackageRoot)telerik.ui.for.blazor.trial\2.29.0\buildTransitive\Telerik.UI.for.Blazor.Trial.props')" />
+    <Import Project="$(NuGetPackageRoot)telerik.ui.for.blazor.trial\2.30.0\buildTransitive\Telerik.UI.for.Blazor.Trial.props" Condition="Exists('$(NuGetPackageRoot)telerik.ui.for.blazor.trial\2.30.0\buildTransitive\Telerik.UI.for.Blazor.Trial.props')" />
   </ImportGroup>
 </Project>

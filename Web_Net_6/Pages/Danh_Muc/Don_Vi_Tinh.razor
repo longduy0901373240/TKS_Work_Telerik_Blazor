@@ -27,49 +27,52 @@
 <br />
 <div class="row">
     <div class="col-md-12">
-        <TelerikContextMenu @ref="@p_ContextMenu_Don_Vi_Tinh" Data=@p_MenuItems_Don_Vi_Tinh OnClick=@((MenuItem item)=>F_OnItemClick(item))></TelerikContextMenu>
-        <TelerikGrid Data="@p_arrDon_vi_Tinh" EditMode="@GridEditMode.Popup" FilterMode="@GridFilterMode.FilterRow" Sortable="true" SortMode="@SortMode.Single"
-                     OnRowContextMenu=@F_OnContextMenu_Don_Vi_Tinh>
-            <GridToolBar>
-                <GridCommandButton Icon="add" OnClick="@F_AddItem_Don_Vi_Tinh">Add Item</GridCommandButton>
-                <GridCommandButton Command="ExcelExport" Icon="file-excel">Export to Excel</GridCommandButton>
-                <GridCommandButton Command="CsvExport" Icon="file-csv">Export to CSV</GridCommandButton>
-            </GridToolBar>
-            <GridColumns>
-                <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Auto_ID) Title="Auto ID"></GridColumn>
-                <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Ten_Don_Vi_Tinh) Title="Tên Đơn Vị Tính"></GridColumn>
-                <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Created) Title="Ngày Tạo"></GridColumn>
-                <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Created_By) Title="Người Tạo"></GridColumn>
-                <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Last_Updated) Title="Ngày Cập Nhật"></GridColumn>
-                <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Last_Updated_By) Title="Người Cập Nhật"></GridColumn>
-            </GridColumns>
-        </TelerikGrid>
-        <TelerikWindow Modal="true" Visible="@(p_objDon_Vi_Tinh!=null)">
-            <WindowTitle>
-                @{
-                    if (@p_blSelectEdit == true)
-                    {
-                        <strong>Edit Record Đơn Vị Tính</strong>
+        <div class="container-fluid">
+            <TelerikContextMenu @ref="@p_ContextMenu_Don_Vi_Tinh" Data=@p_MenuItems_Don_Vi_Tinh OnClick=@((MenuItem item)=>F_OnItemClick(item))></TelerikContextMenu>
+            <TelerikGrid Data="@p_arrDon_vi_Tinh" EditMode="@GridEditMode.Popup" FilterMode="@GridFilterMode.FilterRow" Sortable="true" SortMode="@SortMode.Single"
+                         OnRowContextMenu=@F_OnContextMenu_Don_Vi_Tinh
+                         Width="1300px" Pageable="true" ScrollMode="@GridScrollMode.Scrollable">
+                <GridToolBar>
+                    <GridCommandButton Icon="add" OnClick="@F_AddItem_Don_Vi_Tinh">Add Item</GridCommandButton>
+                    <GridCommandButton Command="ExcelExport" Icon="file-excel">Export to Excel</GridCommandButton>
+                    <GridCommandButton Command="CsvExport" Icon="file-csv">Export to CSV</GridCommandButton>
+                </GridToolBar>
+                <GridColumns>
+                    <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Auto_ID) Title="Auto ID" Locked="true"></GridColumn>
+                    <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Ten_Don_Vi_Tinh) Title="Tên Đơn Vị Tính" Locked="true"></GridColumn>
+                    <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Created) Title="Ngày Tạo"></GridColumn>
+                    <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Created_By) Title="Người Tạo"></GridColumn>
+                    <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Last_Updated) Title="Ngày Cập Nhật"></GridColumn>
+                    <GridColumn Field=@nameof(CDM_Don_Vi_Tinh.Last_Updated_By) Title="Người Cập Nhật"></GridColumn>
+                </GridColumns>
+            </TelerikGrid>
+            <TelerikWindow Modal="true" Visible="@(p_objDon_Vi_Tinh!=null)">
+                <WindowTitle>
+                    @{
+                        if (@p_blSelectEdit == true)
+                        {
+                            <strong>Edit Record Đơn Vị Tính</strong>
+                        }
+                        else
+                        {
+                            <strong>Add Record Đơn Vị Tính</strong>
+                        }
                     }
-                    else
-                    {
-                        <strong>Add Record Đơn Vị Tính</strong>
-                    }
-                }
-            </WindowTitle>
-            <WindowContent>
-                <TelerikForm Model="@p_objDon_Vi_Tinh" OnValidSubmit=@F_Save_Don_Vi_Tinh>
-                    <FormItems>
-                        <FormItem Field=@nameof(CDM_Don_Vi_Tinh.Ten_Don_Vi_Tinh) LabelText="Đơn Vị Tính"></FormItem>
-                        <p class="text-danger">@p_strNotificationError</p>
-                    </FormItems>
-                    <FormButtons>
-                        <TelerikButton Icon="save" ButtonType="@ButtonType.Submit" Primary=true>Save</TelerikButton>
-                        <TelerikButton Icon="cancel" ButtonType="@ButtonType.Button" OnClick=@F_ClearSelection_Don_Vi_Tinh>Cancel</TelerikButton>
-                    </FormButtons>
-                </TelerikForm>
-            </WindowContent>
-        </TelerikWindow>
+                </WindowTitle>
+                <WindowContent>
+                    <TelerikForm Model="@p_objDon_Vi_Tinh" OnValidSubmit=@F_Save_Don_Vi_Tinh>
+                        <FormItems>
+                            <FormItem Field=@nameof(CDM_Don_Vi_Tinh.Ten_Don_Vi_Tinh) LabelText="Đơn Vị Tính"></FormItem>
+                            <p class="text-danger">@p_strNotificationError</p>
+                        </FormItems>
+                        <FormButtons>
+                            <TelerikButton Icon="save" ButtonType="@ButtonType.Submit" Primary=true>Save</TelerikButton>
+                            <TelerikButton Icon="cancel" ButtonType="@ButtonType.Button" OnClick=@F_ClearSelection_Don_Vi_Tinh>Cancel</TelerikButton>
+                        </FormButtons>
+                    </TelerikForm>
+                </WindowContent>
+            </TelerikWindow>
+        </div>
     </div>
 </div>
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TB+NcrvGVYzBTQ/0VXLBCUtTJZUq5CqAup4eO+Jn6EY=",
+  "Hash": "zDxNsbR11nygf8Cy1H/eP3SIfFn7DEpW4wa0Aaw2Wa8=",
   "Source": "Web_Net_6",
   "BasePath": "_content/Web_Net_6",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\css\\kendo-theme-bootstrap\\all.css",
+      "Identity": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\css\\kendo-theme-bootstrap\\all.css",
       "SourceId": "Telerik.UI.for.Blazor.Trial",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\",
       "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
       "RelativePath": "css/kendo-theme-bootstrap/all.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\css\\kendo-theme-bootstrap\\all.css"
+      "OriginalItemSpec": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\css\\kendo-theme-bootstrap\\all.css"
     },
     {
-      "Identity": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\css\\kendo-theme-default\\all.css",
+      "Identity": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\css\\kendo-theme-default\\all.css",
       "SourceId": "Telerik.UI.for.Blazor.Trial",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\",
       "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
       "RelativePath": "css/kendo-theme-default/all.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\css\\kendo-theme-default\\all.css"
+      "OriginalItemSpec": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\css\\kendo-theme-default\\all.css"
     },
     {
-      "Identity": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\css\\kendo-theme-material\\all.css",
+      "Identity": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\css\\kendo-theme-material\\all.css",
       "SourceId": "Telerik.UI.for.Blazor.Trial",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\",
       "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
       "RelativePath": "css/kendo-theme-material/all.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\css\\kendo-theme-material\\all.css"
+      "OriginalItemSpec": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\css\\kendo-theme-material\\all.css"
     },
     {
-      "Identity": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\images\\blazor.png",
+      "Identity": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\images\\blazor.png",
       "SourceId": "Telerik.UI.for.Blazor.Trial",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\",
       "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
       "RelativePath": "images/blazor.png",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\images\\blazor.png"
+      "OriginalItemSpec": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\images\\blazor.png"
     },
     {
-      "Identity": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\js\\telerik-blazor.js",
+      "Identity": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\js\\telerik-blazor.js",
       "SourceId": "Telerik.UI.for.Blazor.Trial",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\",
       "BasePath": "_content/Telerik.UI.for.Blazor.Trial",
       "RelativePath": "js/telerik-blazor.js",
       "AssetKind": "All",
@@ -99,7 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.29.0\\staticwebassets\\js\\telerik-blazor.js"
+      "OriginalItemSpec": "C:\\Users\\longd\\.nuget\\packages\\telerik.ui.for.blazor.trial\\2.30.0\\staticwebassets\\js\\telerik-blazor.js"
     },
     {
       "Identity": "D:\\Code\\TKS_Work_Telerik_Blazor\\Web_Net_6\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Web_Net_6.styles.css",
